@@ -24,7 +24,7 @@ def parse(raw_file, delimiter):
     # Close CSV file
     opened_file.close()
     
-    return save_data(parsed_data)
+    return parsed_data
 
 def save_data(data):
     file = open('file.txt', 'w')
